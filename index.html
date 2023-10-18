@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Intro to HTML</title>
+    <!-- Head gives information to the browser -->
+</head>
+<body>
+    <!-- block tags: take up the entire width of their line
+         && Do NOT allow anything to be next to them-->
+         <header>
+            <h1>Game Store Inventory</h1>
+            <nav>
+                <!-- anchor tags (a) -->
+                <!-- href is an atrribute. atrributes give tags information -->
+                <!-- href is specific to anchor tags bc they contain 
+                    the address to the page you want to go to -->
+                <a href="https://amazon.com" target="_blank">Amazon</a>  
+                <!-- target atrribute allows us to open a new tab when navigating to another page -->
+                <a href="https://google.com" target="_blank">Google.com</a>
+                <a href="./animal.html">Favorite animal</a>
+            </nav>
+         </header>
+
+         <!-- all the infomration in our app in the main below -->
+         <main>
+            <h2>Welcome to our shop!</h2>
+            <p>Choose from options below</p>
+            <!-- Two types of list il & ol -->
+            <!-- ul stands for unorder list -->
+            <!-- ol stands for orderd lists -->
+            <ul>
+                <!-- li tags are list item tags
+                     that go inside of ol or ul tags -->
+                <li>See Inventory</li>
+                <li>Add game to Inventory</li>
+                <li>Edit game</li>
+                <li>Delete game</li>
+            </ul>
+         </main>
+         <footer>
+            <h4>Steps to Use app</h4>
+            <ol>
+                <li><strong>Open computer</strong></li>
+                <li><em>Navigate to app</em></li>
+            </ol>
+            <h3>Contact information:</h3>
+            <h4> contact Links</h4> 
+            <details>
+                <strong>Email: </strong><a href="mailto:MichaelRestrepoross@pursuit.org">MichaelRestrepoross@pursuit.org</a><br>
+                <strong>Game-Store Store Project Link: </strong><a href="https://github.com/MichaelARestrepoross/Game-Store">Game Store Project link</a><br>
+                <strong>Phone Number 1-516-131-4321</strong> 
+            <h4>Website Links</h4>
+            </details>
+            <h4>Store Links</h4>
+            <details>
+                <a href="">home Page</a> <br>
+                <a href="">Game store- Add game</a><br>
+                <a href=""> Game store- Remove game</a><br>
+                <code> if(game){console.log("game code")}</code>
+            </details>
+
+         </footer>
+
+    <!-- <p>Hello, world!</p> -->
+
+    <!-- inline tags: take ONLY the space of their content, 
+        and will allow other tags to be  next to them -->
+    <!-- <a href="">Amazon</a>
+    <a href="">Google</a> -->
+</body>
+</html>
